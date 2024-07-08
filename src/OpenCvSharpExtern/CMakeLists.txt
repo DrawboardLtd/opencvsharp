@@ -11,6 +11,7 @@ ENDIF()
 
 file(GLOB OPENCVSHARP_FILES *.cpp)
 
+set(OpenCV_STATIC ON)
 find_package(OpenCV REQUIRED)
 
 # iconv support isn't automatic on some systems
